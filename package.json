@@ -1,0 +1,46 @@
+{
+  "name": "seneca-dsf",
+  "description": "Lookup data from DSF (Det sentrale folkeregister)",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "keywords": [
+    "seneca",
+    "microservice",
+    "dsf",
+    "Det sentrale folkeregister"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/zrrrzzt/seneca-dsf.git"
+  },
+  "bugs": {
+    "url": "http://github.com/zrrrzzt/seneca-dsf/issues"
+  },
+  "homepage": "https://github.com/zrrrzzt/seneca-dsf",
+  "engines": {
+    "node": ">=4.6.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
+    "coverage": "tap test/**/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
+    "setup": "npm install && node setup.js",
+    "standard-fix": "standard-fix"
+  },
+  "devDependencies": {
+    "coveralls": "2.11.14",
+    "seneca": "3.2.1",
+    "standard": "8.3.0",
+    "tap": "7.1.2",
+    "nsp": "2.6.2"
+  },
+  "dependencies": {
+    "node-dsf": "2.1.6"
+  }
+}
