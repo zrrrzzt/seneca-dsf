@@ -41,6 +41,6 @@
     "nsp": "2.6.2"
   },
   "dependencies": {
-    "node-dsf": "2.1.6"
+    "node-dsf": "2.1.7"
   }
 }
