@@ -1,7 +1,7 @@
 {
   "name": "seneca-dsf",
   "description": "Lookup data from DSF (Det sentrale folkeregister)",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
